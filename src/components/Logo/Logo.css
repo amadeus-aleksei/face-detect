@@ -1,0 +1,10 @@
+#logo {
+    border-color: violet;
+    justify-content: flex-start;
+    padding-left: 4rem;
+}
+
+img {
+    width: 8rem;
+    height: 8rem;
+}

@@ -1,0 +1,15 @@
+#top-nav {
+    border-color: red;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+
+li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
