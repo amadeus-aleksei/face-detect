@@ -5,27 +5,47 @@
 }
 
 .form-field {
-    border-color: orange;
-    padding: 4rem 8rem;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 1rem;
+    padding: 3rem 5rem;
+    width: 20rem;
+    margin-top: 2rem;
+    background:linear-gradient(to right, #00ffff, #9f0084);
+    transition: all .3s;
+}
+
+.form-field:hover {
+    transform: scale(1.1);
 }
 
 h2 {
-    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: 2em;
+    color: white;
 }
 
 input {
     height: 2rem;
-    width: 25rem;
+    width: 40rem;
     letter-spacing: .1rem;
     padding-left: .5rem;
 }
 
+
 button {
     width: 10rem;
+    font-size: 15px;
+    background-color: #00ffff;
+    border-color: #00ffff;
+    border-radius: .2rem;
+    border-style: solid;
+    transition: all .3s;
 }
 
 button:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
