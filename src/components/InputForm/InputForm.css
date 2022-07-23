@@ -1,22 +1,27 @@
 #input-form {
-    border-color: aqua;
     flex-direction: column;
     align-items: center;
 }
 
 .form-field {
     border-style: solid;
-    border-color: aqua;
+    
     border-radius: 1rem;
     padding: 3rem 5rem;
     width: 20rem;
     margin-top: 2rem;
     background:linear-gradient(to right, #00ffff, #9f0084);
+    opacity: 0.8;
+    background-image:  linear-gradient(#444cf7 2px, transparent 2px), linear-gradient(90deg, #444cf7 2px, transparent 2px), linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(90deg, #444cf7 1px, #f7d812 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    
     transition: all .3s;
 }
 
 .form-field:hover {
     transform: scale(1.1);
+    box-shadow: 1rem 1rem;
 }
 
 h2 {
@@ -38,8 +43,9 @@ input {
 button {
     width: 10rem;
     font-size: 15px;
-    background-color: #00ffff;
-    border-color: #00ffff;
+    background-color: #9f0084;
+    border-color: #9f0084;
+    color: #ffffff;
     border-radius: .2rem;
     border-style: solid;
     transition: all .3s;
@@ -48,4 +54,6 @@ button {
 button:hover {
     cursor: pointer;
     transform: scale(1.1);
+    background-color: #df00ba;
+    border-color: #df00ba;    
 }
