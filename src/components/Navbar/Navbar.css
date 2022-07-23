@@ -1,5 +1,6 @@
 #top-nav {
     border-color: red;
+    
     justify-content: flex-end;
     padding-right: 2rem;
 }
@@ -7,10 +8,12 @@
 li {
     list-style: none;
     text-decoration: underline;
+    display: inline-block;
+    margin: 1rem;
 }
 
 li:hover {
     cursor: pointer;
-    
+    color: rgb(97, 27, 161);    
 }
 
